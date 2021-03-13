@@ -7,20 +7,28 @@
     <link rel="stylesheet" href="common.css">
 </head>
 <body>
-    <div class="js-clock">
+
+    <span class="js-weather css-weather"></span>
+
+    <div class="todo">
+
+    <div class="js-clock css-clock">
         <h1>00:00</h1>
     </div>
 
     <form class="js-form form">
-        <input type="text" placeholder="What is your name?">
+        <input class="text-input" type="text" placeholder="Type your name here">
     </form>
-    <h4 class="js-grettings greetings"></h4>
+    <h2 class="js-grettings greetings"></h2>
 
     <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do">
+        <input class="text-input" type="text" placeholder="Write a To Do here">
     </form>
 
-    <ul class="js-toDoList"></ul>
+    <ul class="js-toDoList css-toDoList"></ul>
+
+  
+</div>
 
     <script src="clock.js"></script>
     <script src="gretting.js"></script>
